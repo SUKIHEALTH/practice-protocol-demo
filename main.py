@@ -290,7 +290,7 @@ def chat(req: ChatRequest):
     try:
         response = anthropic_client.messages.create(
             model="claude-sonnet-5",
-            max_tokens=400,
+            max_tokens=1000,
             system=system_prompt,
             messages=[{"role": "user", "content": user_message}],
         )
