@@ -287,13 +287,18 @@ def chat(req: ChatRequest):
     context = "\n\n---\n\n".join(f"[Source: {m['source']}]\n{t}" for t, m in retrieved)
     user_message = f"Protocol excerpts:\n\n{context}\n\nQuestion: {req.message}"
 
-    response = anthropic_client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=400,
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_message}],
-    )
-    answer = response.content[0].text
+    try:
+        response = anthropic_client.messages.create(
+            model="claude-sonnet-5",
+            max_tokens=400,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_message}],
+        )
+        answer = next((block.text for block in response.content if block.type == "text"), None)
+        if not answer:
+            answer = "Ik kon op basis van de beschikbare documenten geen antwoord vinden. Probeer je vraag anders te stellen."
+    except Exception as e:
+        answer = f"Er ging iets mis bij het genereren van een antwoord. Probeer het opnieuw. ({type(e).__name__})"
 
     new_count = session["question_count"] + 1
     upsert_session(req.session_id, question_count=new_count)
