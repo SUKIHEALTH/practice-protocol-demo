@@ -32,22 +32,23 @@ DB_PATH = os.path.join(DATA_DIR, "leads.db")
 DEMO_CHROMA_PATH = os.path.join(DATA_DIR, "chroma_demo")
 USER_CHROMA_PATH = os.path.join(DATA_DIR, "chroma_user")
 
-DEMO_SYSTEM_PROMPT = """World: You are a demo protocol assistant showing how an AI-powered internal knowledge base works for a GP practice. The example protocols provided are illustrative demo content, not real patient-facing guidance from any actual practice.
+DEMO_SYSTEM_PROMPT = """World: You are a demo assistant showing how an AI-powered internal knowledge base works for a Dutch GP practice. The protocol excerpts provided are real Dutch-language practice protocols, used here as demo content to show the assistant's capability — not tied to any single named practice.
 
-Task: Answer questions using ONLY the protocol excerpts provided in each message. If the answer isn't in the excerpts, say so plainly and note this is a demo with a limited example document set.
+Task: Answer questions using ONLY the protocol excerpts provided in each message. Answer in the SAME LANGUAGE the visitor asked the question in — if they ask in English, answer in English even though the source protocols are in Dutch; if they ask in Dutch, answer in Dutch. Translate protocol content naturally as part of your answer; do not just paraphrase around it. If the answer isn't in the excerpts, say so plainly in the visitor's language and note this is a demo with a limited example document set.
 
 Constraint:
 - This is a demonstration only — never present an answer as real clinical guidance a patient or clinician should act on.
-- Always cite the source document name for every claim you make.
-- Keep answers short and direct."""
+- Always cite the source document name for every claim you make (keep the Dutch filename as-is even when answering in English).
+- Keep answers short and direct.
+- These are real (anonymised) practice protocols used for demonstration — treat process/administrative detail as shown, but do not speculate beyond what's written."""
 
 USER_DOCS_SYSTEM_PROMPT = """World: You are a protocol assistant answering questions using documents the visitor has uploaded themselves for this trial session.
 
-Task: Answer questions using ONLY the excerpts provided in each message, drawn from the visitor's own uploaded documents. If the answer isn't in the excerpts, say so plainly and suggest they check the original document or their practice lead.
+Task: Answer questions using ONLY the excerpts provided in each message, drawn from the visitor's own uploaded documents. Answer in the SAME LANGUAGE the visitor asked the question in, regardless of the language the source documents are written in — translate naturally as part of your answer. If the answer isn't in the excerpts, say so plainly in the visitor's language and suggest they check the original document or their practice lead.
 
 Constraint:
 - Never answer clinical judgement questions about a specific patient — process and protocol questions only.
-- Always cite the source document name for every claim you make.
+- Always cite the source document name for every claim you make, in its original filename.
 - Keep answers short and direct."""
 
 app = FastAPI()
@@ -230,6 +231,34 @@ def extract_text(filename: str, content: bytes) -> str:
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+def prettify_filename(filename: str) -> str:
+    """Turns 'Protocol_administratie_-_Geboorte.txt' into 'Administratie - Geboorte'."""
+    name = filename.rsplit(".", 1)[0]
+    name = name.replace("Protocol_", "").replace("_", " ").strip()
+    name = name.replace(" - ", " — ")
+    return name[0].upper() + name[1:] if name else filename
+
+
+@app.get("/documents")
+def list_documents(session_id: Optional[str] = None):
+    """Returns the titles of documents currently active for this session:
+    the demo set by default, or the visitor's own uploaded documents if
+    they've uploaded (and those haven't expired)."""
+    if session_id:
+        cleanup_expired_sessions()
+        session = get_session(session_id)
+        if session["has_own_docs"]:
+            try:
+                collection = user_chroma_client.get_collection(f"session_{session_id}")
+                sources = sorted({m["source"] for m in collection.get()["metadatas"]})
+                return {"mode": "own_docs", "documents": [prettify_filename(s) for s in sources]}
+            except Exception:
+                pass
+
+    demo_files = sorted(PROTOCOLS_DIR.glob("Protocol*.txt"))
+    return {"mode": "demo", "documents": [prettify_filename(f.name) for f in demo_files]}
 
 
 @app.post("/chat")
