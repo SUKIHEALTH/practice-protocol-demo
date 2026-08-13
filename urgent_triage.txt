@@ -1,0 +1,17 @@
+[DEMO CONTENT — EXAMPLE PROTOCOL, NOT REAL CLINICAL GUIDANCE]
+
+Same-Day Urgent Appointment Triage — Example Practice Protocol
+
+Purpose: to give reception and triage staff clear criteria for booking same-day appointments versus routine ones.
+
+Same-day criteria (example): chest pain, breathing difficulty, suspected stroke symptoms, severe abdominal pain, a child under 2 with a fever above 39C, or any presentation the caller describes as an emergency.
+
+Process:
+1. Reception staff use the same-day criteria list to triage incoming calls — if in doubt, always escalate to the triage nurse rather than deciding alone.
+2. The triage nurse calls back within 30 minutes for same-day flagged calls.
+3. If the triage nurse assesses the situation as requiring emergency services, they advise the patient to call the national emergency number directly and inform the duty doctor.
+4. All same-day bookings are logged with the trigger reason for audit purposes.
+
+Escalation contact: triage nurse; duty doctor if the triage nurse is unavailable.
+
+Review: this example protocol would be reviewed quarterly in a real practice based on triage outcome audits.

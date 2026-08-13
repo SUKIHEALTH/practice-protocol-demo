@@ -1,0 +1,16 @@
+[DEMO CONTENT — EXAMPLE PROTOCOL, NOT REAL CLINICAL GUIDANCE]
+
+Medication Reconciliation on Hospital Discharge — Example Practice Protocol
+
+Purpose: to reduce medication errors when a patient returns to practice care after a hospital admission.
+
+Process:
+1. The practice assistant flags any discharge letter received for a same-day medication review, not the next routine appointment.
+2. The reviewing doctor compares the discharge medication list against the practice's current record within 48 hours of receipt.
+3. Any discrepancy (drug stopped, started, or dose changed) is discussed with the patient by phone or at a booked appointment before the next prescription is issued.
+4. Discrepancies involving high-risk medications (anticoagulants, insulin, opioids) are reviewed same-day, not within 48 hours.
+5. The updated medication list is confirmed with the patient and documented in the record.
+
+Escalation contact: reviewing doctor; high-risk discrepancies escalate to the practice's designated medicines-safety lead.
+
+Review: this example protocol would be reviewed every six months in a real practice, aligned with local pharmacy audit cycles.

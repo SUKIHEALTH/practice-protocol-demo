@@ -1,0 +1,18 @@
+[DEMO CONTENT — EXAMPLE PROTOCOL, NOT REAL CLINICAL GUIDANCE]
+
+Out-of-Hours Suspected Sepsis Referral — Example Practice Protocol
+
+Purpose: to standardise the process for staff identifying a patient with possible sepsis outside normal clinic hours.
+
+Trigger criteria (example): new confusion, fever above 38.3C with rapid heart rate, or a NEWS2 score of 5 or above recorded by any staff member.
+
+Process:
+1. The staff member who identifies the trigger criteria immediately informs the duty doctor — do not wait for the doctor to become free.
+2. The duty doctor performs a rapid assessment within 10 minutes.
+3. If sepsis is suspected, the duty doctor arranges emergency transfer following local ambulance protocol and documents the call time.
+4. The practice manager is informed within 1 hour for incident logging purposes.
+5. A safety-netting call to the patient or family is made within 24 hours by the duty doctor.
+
+Escalation contact: duty doctor via practice mobile; if unreachable within 5 minutes, escalate to the on-call senior GP.
+
+Review: this example protocol would be reviewed annually by the clinical lead in a real practice.
