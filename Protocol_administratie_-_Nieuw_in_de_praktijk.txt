@@ -1,0 +1,139 @@
+PROTOCOL PATIËNTEN ‘NIEUW IN DE PRAKTIJK’ 
+
+Bij aanmelden:
+
+1.  Indien patiënt meldt dat hij in de praktijk wil worden ingeschreven
+    (check eerst adres – Locatie A / Locatie B) en geef dan aan dat we
+    van patiënt verwachten dat hij een inschrijfformulier invult, bij
+    voorkeur via de website.
+
+2.  Geef patiënt uitleg over de procedure: patiënt wordt ingeschreven en
+    moet zich afmelden bij vorige huisarts. Vertel dat patiënt er belang
+    bij heeft dat dossier wordt overgezet naar nieuwe huisarts. Vertel
+    patiënt dat als inschrijving is geregeld en dossier binnen is, de
+    patiënt welkom is voor een kennismakingsgesprek. Ze nemen dan ook
+    gezamenlijk de voorgeschiedenis door.
+
+Inschrijfhandelingen:
+
+1.  Medicom: open dossier voor nieuwe patiënt (CTRL +F9)
+
+2.  Linksboven nieuwe patiënt toevoegen (CTRL + N)
+
+3.  BSN nummer invoeren: Opvragen via SBV-Z, overige gegevens invoeren
+    en opslaan, LET OP om alle bekende gegevens zoals
+    telefoonnummer/email, wie de ha is en apotheek nu in te vullen.
+    Indien er GEEN apotheek is doorgegeven, laat deze dan ook leeg!
+
+4.  Er verschijnt een pop-up aanmelden ION, kies annuleren.
+
+5.  WID-controle uitvoeren (uittreksel BRP, bsnnummer invullen en kies
+    visueel)
+
+SOEP regels noteren
+
+6.  Check LSP, zet op akkoord of geen akkoord.
+
+7.  Maak MGN-contract aan.
+
+8.  Dossier sluiten.
+
+9.  NAS noteren, Praktijk patiënten administratie algemeen, patiënten
+    admin lijst nieuw ingeschreven patiënten.
+
+10. Vecozo aanmelden Inloggen op www.vecozo.nl, Mijn diensten, patiënt
+    inschrijven op naam (LET OP: alleen ION aanmelden via vecozo.nl,
+    NIET in medicom)
+
+11. Passanten worden nooit op naam ingeschreven (haal vinkje weg bij
+    ‘extra gegevens’), zijn immers NONI (niet op naam ingeschreven.
+    Alleen patiënten die niet verzekerd zijn, rekenen contant af.
+
+12. Heeft patiënt op inschrijfformulier bij ‘medische gegevens’
+    ingevoerd dat hij/zij bekend is met DM, HVZ of longproblemen, plaats
+    patiënt dan op overleg bij poh-s betreffende praktijk.
+
+13. Inschrijfformulier opslaan in het patiëntendossier (F11).
+
+14. Bel patiënt na inschrijving om door te geven dat inschrijving rond
+    is. Zijn er nog gegevens nodig? Denk aan email of apotheek, vraag
+    deze direct na en maak dossier compleet. Plan indien gewenst een
+    kennismakingsgesprek bij de huisarts.
+
+NIEUWE PATIËNTEN TOEVOEGEN AAN BESTAAND WOONVERBAND 
+
+1.  Ga naar Medicom: patiënt opzoeken
+
+2.  Selecteer de juiste patiënt van het al bestaande woonverband
+
+3.  Klik links boven op nieuwe patiënt toevoegen
+
+4.  Er verschijnt een pop-up: wilt u patiënt toevoegen aan bestaan
+    woonverband? – Ja.
+
+BESTAANDE PATIËNTEN DOSSIERS SAMENVOEGEN 
+
+1.  Ga naar Medicom: patiënt zoeken – selecteren – dossier openen
+
+2.  Linker kolom: administratie verhuizen
+
+3.  Kies de optie samenvoegen
+
+DOSSIER OMZETTEN BINNEN EIGEN PRAKTIJKGEBIED 
+
+1.  Ga naar Medicom: linker kolom administratie
+
+2.  Uitschrijven
+
+3.  Voer bij nieuwe huisarts de artsencode in
+
+4.  Voer bij reden van vertrek A-nieuwe huisarts in, opslaan
+
+DOSSIER IMPORTEREN BUITEN EIGEN PRAKTIJKGEBIED 
+
+1.  Inloggen via google: https://filetransfer.zorgmail.nl.
+
+2.  Naar ZFT dashboard ontvangen bestanden klik op juiste patiënt blauw
+    pijltje
+
+3.  Zoek patiënt op in Medicom, controleer of deze is ingeschreven.
+
+4.  Ga naar de NAS patiënten administratie algemeen import-export
+
+5.  Kies voor de map: inschrijvingen import.
+
+6.  Maak in inschrijving import een nieuwe map aan met naam en geb.datum
+    patient.
+
+7.  Terug naar ZFT Bestanden downloaden (alle drie aanvinken) de
+    bestanden worden opgeslagen op de pc kies rechtsboven voor weergave
+    in map. Selecteer nu deze bestanden en knip en plak deze in de
+    gemaakte nieuwe map in import-export (gemaakt in stap 6)
+
+8.  Ga naar dossier van patiënt in Medicom
+
+9.  Linker kolom administratie: EPD- overdrachtsbericht importeren
+
+10. Ga op de NAS naar de import/export map en kies het EDI bestand. Hij
+    zal automatisch het bijbehorende ZIP bestand kiezen. Klik hierna op
+    importeren.
+
+11. Check of de gegevens die tevoorschijn komen, de juiste zijn. Hij
+    geeft hierna de melding “Dit dossier is niet leeg. Weet u zeker dat
+    u wilt importeren?” Kies ja.
+
+12. Het dossier is nu geïmporteerd. Klik hierna op voltooien in ZFT.
+    (Doe dit pas nadat importeren in Medicom is gelukt).
+
+13. Indien het een patiënt is met een uitgebreide voorgeschiedenis,
+    doorloop dan nog de volgende stappen:
+
+14. Ga naar actielijst (ctrl +F8)
+
+15. Maak nieuwe actie aan – linksboven
+
+16. Voer in: betreft patiënt, bij naam dossier patiënt opzoeken
+
+17. Voer bij omschrijving in: dossier lezen
+
+18. Details opslaan

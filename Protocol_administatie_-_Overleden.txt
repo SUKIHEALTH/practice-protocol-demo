@@ -1,0 +1,41 @@
+Overleden
+
+Geef voor een patiënt ION afgemeld wordt en op st. overleden wordt gezet
+altijd eerst het overlijden aan de arts door voor eventuele
+condoleancevisite bij nabestaanden.
+
+1.  Indien patiënt is overleden dient deze afgemeld te worden bij
+    Vecozo, dit kan je vinden onder: Mijn diensten -> ION -> patiënten
+    relaties, zoek patiënt hier op, in het venster verschijnt de knop
+    meld af, klik hier op, de patiënt is nu ION afgemeld.
+
+2.  Ga in de NAS naar patiëntenadministratie algemeen en kies dan de map
+    patiëntenadministratie, hierin is de overledenen lijst te
+    vinden, noteer de patiënt hier op.
+
+3.  Zet de status van de patiënt op overleden, ga hiervoor in de linker
+    kolom naar het tabblad Patiënt en kies optie stamgegevens -> extra
+    gegevens. Zet status van de patiënt op overleden.
+
+4.  Noteer in dossier:
+
+5.  Dossiers van overleden patiënten worden altijd lokaal opgeslagen, om
+    dit te kunnen doen moet het dossier geëxporteerd worden. Ga hiervoor
+    in Medicom via de linker kolom naar tabblad administratie, kies
+    “EPD- overdrachtsbericht exporteren” selecteer de drie mogelijke
+    bestanden (EDI, PDF, ZIP) deze worden opgeslagen in de M365 omgeving
+    in de map ‘dossiers overleden patiënten’ en benoem deze map als
+    volgt: Voorbeeld P. 01-01-1950.
+
+6.  Zorg dat de map staat in de map met het jaartal waarin patiënt is
+    overleden.
+
+7.  Verstuur een condoleancekaart - LET OP – De condoleancekaart wordt
+    pas verstuurd na goedkeuring arts! Arts geeft aan waar/naar wie
+    condoleancekaart wordt verstuurd.
+
+8.  Controleer aanwezigheid wilsverklaring en euthanasieverklaring,
+    indien aanwezig in map formulieren weggooien.
+
+9.  Meld overlijden van patiënt ook aan de betreffende POH indien
+    patiënt bekend is in PV.

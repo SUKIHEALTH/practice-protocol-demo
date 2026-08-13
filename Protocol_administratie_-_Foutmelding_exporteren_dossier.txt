@@ -1,0 +1,30 @@
+Protocol foutmelding exporteren dossier
+
+Indien er een foutmelding pop-up komt bij het exporteren van het medisch
+dossier komt dit vaak doordat er te grote geïmporteerde documenten in
+het dossier staan.
+
+1.  Zoek bij documentbeheer (F11) een groot bestand op, dit is in één
+    oogopslag te zien aan de scrol balk rechts als je het bestand opent.
+    (Is de scrol balk heel klein dan betreft het een groot document.
+    Vaak betreft dit bijvoorbeeld een heel volledig medisch dossier dat
+    is opgeslagen).
+
+2.  Check of dit document kan worden verwijderd. Zo niet: Exporteer dit
+    document door het in de lijst te selecteren en vervolgens op de
+    exportknop (zie figuur 1) te klikken. Sla het document vervolgens
+    op, op het bureaublad.
+
+3.  Verwijder het zojuist geëxporteerde bestand uit documentbeheer.
+
+4.  Controleer of er voldoende grote bestanden zijn geëxporteerd door
+    nogmaals te proberen het dossier te exporteren (zie protocol
+    uitschrijven). Indien dit niet het geval is herhaal stap 1 en 2.
+    Exporteer in dit geval altijd alle 3 bestandsvormen (EDI, PDF en
+    zip).
+
+5.  Vanuit het bureaublad kan het opgeslagen document worden opgeslagen
+    in de NAS bij de geëxporteerde documenten. Verwijder na opslaan op
+    correcte locatie het bestand van het bureaublad.
+
+[]

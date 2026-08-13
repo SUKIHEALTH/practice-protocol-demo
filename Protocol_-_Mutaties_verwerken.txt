@@ -1,0 +1,26 @@
+PROTOCOL MUTATIES KOPPELEN AAN PATIENTENDOSSIER
+
+1.  Open vanuit het agenda werkblad de postverwerking (Ctrl+F12)
+
+2.  Klik in de bovenste regel op “Soort” om te zorgen dat alle mutaties
+    bij elkaar geselecteerd worden.
+
+3.  Ga op de eerste mutatieregel staan.
+
+4.  Klik op de rechter muisknop.
+
+5.  Klik op verwerk Postbericht.
+
+6.  Koppel aan reeds bestaande episode via het uitrolsysteem. Zie je er
+    geen passend episode bijstaan? Laat de regel dan wit.
+
+7.  Klik op Verwerken.
+
+8.  Indien je de regel wit hebt gelaten, kom je nu automatisch in het
+    dossier van patiënt. Het mutatiebericht is in de SOEP-regel
+    opgenomen.
+
+9.  Hier kun je nu kiezen om een nieuwe episode aan te maken om je
+    mutatie aan te koppelen.
+
+10. Het dossier kan nu worden gesloten.

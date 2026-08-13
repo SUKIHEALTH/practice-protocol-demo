@@ -1,0 +1,8 @@
+Patiënt verhuizen vanuit woonverband
+
+1. Ga in de linker kolom naar het tabblad administratie.
+2. Kies hier voor verhuizen. Er verschijnt een nieuw scherm.
+3. Kies in dit scherm voor de optie: Patiënt.
+4. Klik op het icoon links bovenin; wit blaadje met rood stipje.
+5. Er verschijnt opnieuw een nieuw scherm waar je de nieuwe
+adresgegevens kunt invoeren. Klik vervolgens op opslaan.

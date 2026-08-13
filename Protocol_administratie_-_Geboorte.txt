@@ -1,0 +1,19 @@
+PROTOCOL GEBOORTE 
+
+1.  Geboortekaartje + inschrijfformulier opsturen naar ouders
+
+2.  Plaatsen op overleg huisarts en eventueel een sociale visite
+    inplannen
+
+3.  Nieuwe patiënt noteren in NAS map: nieuwe patiënten
+
+4.  Ga naar medicom: opzoeken dossier moeder of vader
+
+5.  Dossier selecteren
+
+6.  Linksboven: nieuwe patiënt toevoegen
+
+7.  Volg protocol inschrijven nieuwe patiënten en meld via vecozo aan op
+    geboortedag! Let op: voer bij apotheek niet zo maar een apotheek in,
+    staat er geen vermeld, laat dit vak dan leeg. Komt bij het eerste
+    voorschrift wel.

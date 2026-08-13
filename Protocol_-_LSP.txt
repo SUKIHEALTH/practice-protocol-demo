@@ -1,0 +1,33 @@
+Protocol LSP
+
+Vanaf 21 oktober 2019 vragen we iedere patiënt of ze wel of niet akkoord
+zijn met het delen van medische gegevens met de huisartsenpost, apotheek
+en of een specialist mocht dat nodig zijn voor de behandeling van de
+patiënt.
+
+Werkwijze
+
+1.  Iedere patiënt wordt gevraagd (het liefst schriftelijk) wel/geen
+    toestemming te geven. Ook al wil een patiënt niet worden aangesloten
+    op het LSP, dan vragen we deze patiënt wel het toestemmingsformulier
+    in te vullen, maar dan NEE, ik geef geen toestemming aan te kruisen.
+
+2.  Het toestemmingsformulier zit in de folder (pagina 5/6). Vraag de
+    patiënt het formulier in te vullen en de folder als naslagwerk thuis
+    te bewaren. Attendeer de patiënt dat ze toestemming moeten geven. Er
+    mag ook mondeling wel of geen toestemming worden gegeven voor LSP.
+
+3.  Vul in Medicom de OPT-IN in. (Mapje rechts naast het poppetje met
+    BSN). Kies hier akkoord of niet akkoord.
+
+4.  Wie vragen de patiënt om toestemming? Geven een folder en leggen
+    kort uit dat pagina 5/6 moet worden uitgescheurd uit de folder en
+    worden ingeleverd.
+
+-   De assistente aan het loket bij een aanmelding voor het spreekuur.
+
+-   De praktijkondersteuner-somatiek (op spreekuur en tijdens visites)
+
+-   De huisartsen op het spreekuur en bij visites
+
+-   De assistentes tijdens hun spreekuren.

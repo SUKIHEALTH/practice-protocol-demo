@@ -1,0 +1,55 @@
+Factureren passanten en noni’s
+
+Het kan voorkomen dat een passant zich meldt aan de telefoon of het
+loket. Passanten worden alleen behandeld, indien zij een geldig ID
+kunnen overhandigen en een geldig verzekeringsbewijs hebben of contant
+afrekenen.
+
+Er zijn diverse soorten passanten / niet op naam ingeschreven patiënten:
+
+Passant in Nederland verzekerd
+
+-   Patiënt wordt ingeschreven in het HIS als incidentele patiënt. Let
+    op: haal vinkje ‘op naam’ weg. Inschrijving is geregeld voordat de
+    huisarts patiënt behandelt.
+
+-   Verzekeringsgegevens worden gecheckt in VECOZO. NIET aanmelden.
+
+-   Geef aan huisarts aan dat passantentarief mag worden geboekt in het
+    journaal.
+
+-   Na het contact wordt automatisch het passantentarief berekend. Nota
+    gaat naar de verzekeraar.
+
+Passant in het buitenland verzekerd
+
+-   Assistente meldt patiënt dat consult contant betaald moet worden.
+
+-   Patiënt wordt ingeschreven in het HIS als incidentele patiënt. Let
+    op: haal vinkje ‘op naam’ weg. Inschrijving is geregeld voordat de
+    huisarts patiënt behandelt.
+
+-   Assistente maakt factuur aan (zie voorbeeld in de NAS); patiënt
+    rekent voorafgaand aan het consult bij assistente af. Zie je vooraf
+    dat er gehecht moet worden, dan reken je “chirurgie”.
+
+-   Kopie nota en contante geld in envelop. Envelop in bakje Nota-assistente.
+
+Niet verzekerden in onze praktijk
+
+-   We hebben patiënten in de praktijk die (bewust) niet verzekerd zijn.
+
+-   Assistente meldt patiënt dat consult/recept of ander verzoek contant
+    betaald moet worden.
+
+-   Recepten moeten eerst contant zijn afgerekend voordat recept wordt
+    meegegeven.
+
+-   Patiënt staat als ‘noni’ in het HIS. Vinkje bij ‘op naam in
+    geschreven’ is weg.
+
+-   Assistente maakt factuur aan (zie voorbeeld in de NAS); patiënt
+    rekent voorafgaand aan het consult bij assistente af. Zie je vooraf
+    dat er gehecht moet worden, dan reken je “chirurgie”.
+
+-   Kopie nota en contante geld in envelop. Envelop in bakje Nota-assistente.

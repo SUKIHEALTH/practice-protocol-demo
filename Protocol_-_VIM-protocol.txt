@@ -1,0 +1,24 @@
+VIM-protocol
+
+1.  Signaleren van het (bijna)incident (alle praktijkmedewerkers).
+
+2.  Invullen (volledig) NHG-VIM formulier. (alle praktijkmedewerkers).
+
+3.  Ingevulde formulier opslaan (datum in titel) in NAS in submap
+    ‘nieuwe VIM’ onder ‘VIM meldingen’. (alle praktijkmedewerkers).
+
+4.  Melden van het (bijna) incident bij de patiënt door medewerker die
+    betrokken is bij bijna-incident (indien van toepassing).
+
+5.  Coördinator monitort wekelijks meldingen in map ‘nieuw’.
+
+6.  Coördinator maakt een globale analyse (NHG) en plaatst deze in
+    submap.
+
+7.  Coördinator houdt VIM-cie wekelijks op de hoogte tijdens het
+    werkoverleg.
+
+8.  VIM-cie komt geregeld bijeen en zullen ter zake doende meldingen
+    gezamenlijk grondig analyseren.
+
+9.  VIM wordt een terugkerend agendapunt op ieder werkoverleg.

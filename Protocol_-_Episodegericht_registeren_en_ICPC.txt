@@ -1,0 +1,61 @@
+Episodegericht registeren en ICPC
+
+Doel episodegericht registeren:
+
+-   Overzicht beloop aandoening in de tijd.
+
+-   Zoekacties (bv voor selectie griepvaccinaties).
+
+-   Wetenschappelijk onderzoek.
+
+Voor coderen gebruiken we de ICPC-classificatie.
+
+Horizontaal de tracti- en orgaansystemen:
+
+Je ziet ze door op tabblad ‘tractus’te klikken of door de cursor bij een
+van de tabbladen te houden.
+
+Verticaal zie je de categorieën genummerd:
+
+1-29 symptomen
+
+30-49 verrichtingen
+
+50-59 behandelingen
+
+60-61 uitslag
+
+62-69 administratief
+
+70-99 aandoeningen (diagnoses)
+
+Het is bij twijfel, makkelijker het ICPC-overzicht te gebruiken.
+
+In principe werkt de assistente alleen met symptomen (=groen), omdat zij
+geen diagnose stelt.
+
+Als patiënt door de huisarts is gezien, en deze wel een diagnose stelt
+kan hij/zij de code aanpassen.
+
+De assistente gebruikt, ook bij telefonisch consult, altijd de E-regel
+(tenzij je bij voorbaat weet dat de diagnose al op de lijst staat (bv
+Diabetes Mellitus).
+
+NB: in ‘huidig contact’ kun je de episodelijst niet zien. Je kunt dan op
+tabblad ‘journaal’ klikken.
+
+Instructie ICPC-registeren
+
+De assistentes nemen op de E-regel de tekst van de ICPC over.
+
+Dit doe je door:
+
+1.  Het schema te bekijken en op de E-regel gewoon de code in te voeren
+    (bv L02 voor ‘symptomen/klachten rug’ en Enter, en als het klopt,
+    nogmaals een enter te geven. De letterlijke tekst komt automatisch
+    in de episodelijst.
+
+2.  Door een trefwoord te kiezen en te ‘enteren’. Vervolgens maak je in
+    de lijst je keuze. Sla op als ‘nieuwe episode automatisch’. Als je
+    het loepje gebruikt, blijft altijd je eigen tekst staan, net als je
+    wanneer je niet de E-regel gebruikt, maar in de episodelijst.
