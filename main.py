@@ -25,7 +25,7 @@ MAX_FILES = 10
 MAX_FILE_SIZE_MB = 5
 ALLOWED_EXTENSIONS = {"pdf", "docx", "txt"}
 ALLOWED_ORIGIN = os.environ.get("ALLOWED_ORIGIN", "*")  # set to your V0 domain once live
-PROTOCOLS_DIR = Path(__file__).parent / "protocols"
+PROTOCOLS_DIR = Path(__file__).parent
 
 Path(DATA_DIR).mkdir(parents=True, exist_ok=True)
 DB_PATH = os.path.join(DATA_DIR, "leads.db")
@@ -98,7 +98,7 @@ def build_demo_index():
     collection = demo_chroma_client.get_or_create_collection("demo_protocols")
     chunks, metadatas, ids = [], [], []
     cid = 0
-    for fpath in sorted(PROTOCOLS_DIR.glob("*.txt")):
+    for fpath in sorted(PROTOCOLS_DIR.glob("Protocol*.txt")):
         text = fpath.read_text(encoding="utf-8")
         words = text.split()
         for i in range(0, len(words), 700):
